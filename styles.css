@@ -1,0 +1,265 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top : 100;
+    left: 0;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo{
+    color: #ff0505;
+    font-size: large;
+    font-weight: bold ;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color :red
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    background-color: #003d98;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #f9f7f7;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#btn :hover{
+    background-color: #003d98;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.project {
+    background-color: #f9eded;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project-card{
+    background-color: #fff;
+    padding: 15PX;
+    border-radius: 8px;
+    width: auto;
+    box-shadow: #000000;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project ul {
+    list-style: none;
+    padding-left: 20px;
+    
+}
+
+.project ul li {
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    
+}
+
+.project-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #303030;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact input, #contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #f40000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #23ab33;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
